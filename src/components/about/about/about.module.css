@@ -1,0 +1,14 @@
+.container {
+  @apply flex
+    flex-col
+    gap-4
+    bg-accent-900
+    p-4
+    rounded-md;
+}
+
+.header {
+  @apply border-b
+    border-accent-800
+    pb-4;
+}

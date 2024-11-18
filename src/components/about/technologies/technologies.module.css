@@ -1,0 +1,42 @@
+.container {
+  @apply flex
+    flex-col
+    gap-4
+    bg-accent-900
+    p-4
+    rounded-md;
+}
+
+.sub_heading {
+  @apply border-b
+    border-accent-800
+    pb-4
+    text-accent-100;
+}
+
+.technologies {
+  @apply grid
+    grid-cols-3
+    md:grid-cols-4
+    lg:grid-cols-6
+    xl:grid-cols-8;
+}
+
+.technology_link {
+  @apply p-6
+    w-full
+    grid
+    place-items-center
+    text-accent-600
+    hover:bg-accent-800
+    hover:text-accent-0
+    transition-all
+    duration-200
+    ease-in-out;
+}
+
+.technology_icon {
+  @apply size-6
+    md:size-8
+    lg:size-10;
+}

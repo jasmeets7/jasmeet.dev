@@ -1,0 +1,203 @@
+import { GitHub } from '@portfolio/icons/socials';
+import {
+  Angular,
+  ApacheKafka,
+  Aws,
+  ClickUp,
+  Containerd,
+  Docker,
+  Git,
+  GitHubCopilot,
+  JavaScript,
+  JestIcon,
+  Kubernetes,
+  LangChain,
+  MongoDB,
+  MySQL,
+  NestJS,
+  NextJS,
+  NGINX,
+  NodeJS,
+  Nodemon,
+  Notion,
+  Npm,
+  Nrwl,
+  Nvm,
+  Nx,
+  OpenAI,
+  Redis,
+  Rxjs,
+  SpringBoot,
+  Trello,
+  Typeform,
+  TypeORM,
+  TypeScript,
+} from '@portfolio/icons/technologies';
+
+export const TECHNOLOGIES = [
+  {
+    name: 'Git',
+    url: 'https://git-scm.com/',
+    Icon: Git,
+  },
+  {
+    name: 'GitHub',
+    url: 'https://github.com/',
+    Icon: GitHub,
+  },
+  {
+    name: 'GitHub Copilot',
+    url: 'https://git-scm.com/',
+    Icon: GitHubCopilot,
+  },
+  {
+    name: 'AWS',
+    url: 'https://aws.amazon.com/',
+    Icon: Aws,
+  },
+  {
+    name: 'Spring Boot',
+    url: 'https://spring.io/projects/spring-boot',
+    Icon: SpringBoot,
+  },
+  {
+    name: 'JavaScript',
+    url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+    Icon: JavaScript,
+  },
+  {
+    name: 'TypeScript',
+    url: 'https://www.typescriptlang.org/',
+    Icon: TypeScript,
+  },
+  {
+    name: 'Jest',
+    url: 'https://jestjs.io/',
+    Icon: JestIcon,
+  },
+  {
+    name: 'NodeJS',
+    url: 'https://nodejs.org/en',
+    Icon: NodeJS,
+  },
+  {
+    name: 'Nodemon',
+    url: 'https://nodemon.io/',
+    Icon: Nodemon,
+  },
+  {
+    name: 'NestJS',
+    url: 'https://nestjs.com/',
+    Icon: NestJS,
+  },
+  {
+    name: 'NextJS',
+    url: 'https://nextjs.org/',
+    Icon: NextJS,
+  },
+  {
+    name: 'Angular',
+    url: 'https://angular.dev/',
+    Icon: Angular,
+  },
+  {
+    name: 'RxJS',
+    url: 'https://rxjs.dev/',
+    Icon: Rxjs,
+  },
+  {
+    name: 'Typeform',
+    url: 'https://www.typeform.com/',
+    Icon: Typeform,
+  },
+  {
+    name: 'MongoDB',
+    url: 'https://www.mongodb.com/',
+    Icon: MongoDB,
+  },
+  {
+    name: 'MySQL',
+    url: 'https://www.mysql.com/',
+    Icon: MySQL,
+  },
+  {
+    name: 'Redis',
+    url: 'https://redis.io/',
+    Icon: Redis,
+  },
+  {
+    name: 'TypeORM',
+    url: 'https://typeorm.io/',
+    Icon: TypeORM,
+  },
+  {
+    name: 'Containerd',
+    url: 'https://containerd.io/',
+    Icon: Containerd,
+  },
+  {
+    name: 'Docker',
+    url: 'https://containerd.io/',
+    Icon: Docker,
+  },
+  {
+    name: 'Kubernetes',
+    url: 'https://kubernetes.io/',
+    Icon: Kubernetes,
+  },
+  {
+    name: 'ClickUp',
+    url: 'https://clickup.com/',
+    Icon: ClickUp,
+  },
+  {
+    name: 'Notion',
+    url: 'https://www.notion.so/',
+    Icon: Notion,
+  },
+  {
+    name: 'Trello',
+    url: 'https://trello.com/',
+    Icon: Trello,
+  },
+  {
+    name: 'OpenAI',
+    url: 'https://openai.com/',
+    Icon: OpenAI,
+  },
+  {
+    name: 'LangChain',
+    url: 'https://www.langchain.com/',
+    Icon: LangChain,
+  },
+  {
+    name: 'Nx',
+    url: 'https://nx.dev/',
+    Icon: Nx,
+  },
+  {
+    name: 'nrwl',
+    url: 'https://nx.dev/',
+    Icon: Nrwl,
+  },
+  {
+    name: 'NPM',
+    url: 'https://www.npmjs.com/',
+    Icon: Npm,
+  },
+  {
+    name: 'NVM',
+    url: 'https://github.com/nvm-sh/nvm',
+    Icon: Nvm,
+  },
+  {
+    name: 'Apache Kafka',
+    url: 'https://kafka.apache.org/',
+    Icon: ApacheKafka,
+  },
+  {
+    name: 'NGINX',
+    url: 'https://nginx.org/',
+    Icon: NGINX,
+  },
+];

@@ -30,7 +30,8 @@
       "@portfolio/db/*": ["./src/backend/db/*"],
       "@portfolio/actions/*": ["./src/backend/actions/*"],
       "@portfolio/models/*": ["./src/backend/models/*"],
-      "@portfolio/contact/*": ["./src/components/contact/*"]
+      "@portfolio/contact/*": ["./src/components/contact/*"],
+      "@portfolio/about/*": ["./src/components/about/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
