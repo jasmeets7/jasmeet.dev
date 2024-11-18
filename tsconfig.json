@@ -26,7 +26,10 @@
       "@portfolio/context/*": ["./src/context/*"],
       "@portfolio/shared/*": ["./src/components/shared/*"],
       "@portfolio/home/*": ["./src/components/home/*"],
-      "@portfolio/icons/*": ["./src/components/icons/*"]
+      "@portfolio/icons/*": ["./src/components/icons/*"],
+      "@portfolio/db/*": ["./src/backend/db/*"],
+      "@portfolio/actions/*": ["./src/backend/actions/*"],
+      "@portfolio/models/*": ["./src/backend/models/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
