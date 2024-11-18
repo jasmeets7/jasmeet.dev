@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
 
-import { UseContactForm } from '@portfolio/domains/contact-form';
-import { FormState } from '@portfolio/contact/form-state';
+import { FormState, UseContactForm } from '@portfolio/domains/contact-form';
 import { emailSchema, TEmailSchema } from '@portfolio/validations/mail';
 import { DEFAULT } from '@portfolio/defaults/contact-form';
 import { zodResolver } from '@hookform/resolvers/zod';
