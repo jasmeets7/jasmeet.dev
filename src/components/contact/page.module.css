@@ -1,0 +1,7 @@
+.container {
+  @apply flex
+    flex-col
+    gap-1.5
+    py-20
+    w-full;
+}

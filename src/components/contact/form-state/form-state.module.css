@@ -1,0 +1,23 @@
+.message {
+  @apply flex
+  gap-0.5
+  items-center
+  border
+  w-full
+  text-center
+  min-w-fit
+  px-2
+  py-1
+  transition-all
+  ease-in-out
+  duration-300;
+}
+
+.success {
+  @apply bg-green-900
+    border-green-800;
+}
+.error {
+  @apply bg-red-900
+    border-red-800;
+}

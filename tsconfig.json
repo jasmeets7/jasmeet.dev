@@ -29,7 +29,8 @@
       "@portfolio/icons/*": ["./src/components/icons/*"],
       "@portfolio/db/*": ["./src/backend/db/*"],
       "@portfolio/actions/*": ["./src/backend/actions/*"],
-      "@portfolio/models/*": ["./src/backend/models/*"]
+      "@portfolio/models/*": ["./src/backend/models/*"],
+      "@portfolio/contact/*": ["./src/components/contact/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

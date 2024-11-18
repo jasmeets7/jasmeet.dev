@@ -1,0 +1,10 @@
+.container {
+  @apply flex
+    flex-col
+    gap-4
+    bg-accent-900
+    border-accent-800
+    border
+    rounded-sm
+    p-6;
+}
