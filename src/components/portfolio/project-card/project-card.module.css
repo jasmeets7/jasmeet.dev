@@ -1,0 +1,53 @@
+.card {
+  @apply flex
+    flex-col
+    gap-1
+    bg-accent-900
+    hover:bg-accent-800
+    hover:scale-105
+    border
+    border-accent-800
+    rounded-md
+    h-56
+    p-2.5
+    transition-all
+    duration-300
+    ease-in-out;
+}
+
+.header_group {
+  @apply flex
+  justify-between
+  items-center
+  w-full;
+}
+
+.title {
+  @apply font-semibold;
+}
+
+.links_group {
+  @apply flex
+  justify-end
+  items-center
+  gap-4;
+}
+
+.description {
+  @apply flex-1;
+}
+
+.badge_container {
+  @apply flex text-justify gap-1;
+}
+
+.badge {
+  @apply bg-accent-950
+  border
+  border-accent-800
+  text-xs
+  font-medium
+  px-2.5
+  py-0.5
+  rounded;
+}
