@@ -1,0 +1,32 @@
+.container {
+  @apply fixed
+    top-0
+    flex
+    flex-col
+    transition-all
+    ease-in-out
+    duration-500
+    text-accent-0
+    text-center
+    h-screen
+    bg-accent-900
+    z-50
+    border-l
+    min-w-60
+    overflow-x-hidden
+    border-accent-800;
+}
+
+.toggle {
+  @apply p-3
+    w-full
+    flex
+    justify-center
+    items-center
+    border-b
+    border-accent-800
+    hover:bg-accent-800
+    transition-all
+    ease-in-out
+    duration-200;
+}

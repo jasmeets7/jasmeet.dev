@@ -1,0 +1,17 @@
+.container {
+  @apply flex
+    flex-col
+    gap-2
+    w-fit
+    items-center
+    justify-center
+    text-xl
+    h-screen
+    lg:items-center;
+}
+
+.tags {
+  @apply w-full
+    md:self-center
+    md:max-w-md;
+}

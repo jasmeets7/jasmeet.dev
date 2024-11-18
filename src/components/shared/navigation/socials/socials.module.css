@@ -1,0 +1,9 @@
+.socials {
+  @apply flex
+  p-4
+  gap-4;
+}
+
+.icon {
+  @apply size-5 hover:text-accent-400 transition-all duration-200 ease-in-out;
+}

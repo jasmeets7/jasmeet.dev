@@ -1,0 +1,17 @@
+.menu_button {
+  @apply p-3
+  bg-accent-950
+  rounded-bl-md
+  border-b
+  border-l
+  border-accent-800
+  hover:bg-accent-800
+  transition-all
+  ease-in-out
+  duration-200;
+}
+
+.menu_icon {
+  @apply size-7
+  text-accent-50;
+}
