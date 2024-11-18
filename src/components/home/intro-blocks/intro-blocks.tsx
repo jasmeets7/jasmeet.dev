@@ -2,7 +2,7 @@ import FadeIn from '@portfolio/shared/fade-in';
 
 export const IntroBlocks: React.FC = () => {
   return (
-    <div className='flex flex-col gap-1 md:text-center'>
+    <div className='flex flex-col gap-1 text-center'>
       <FadeIn delay='100ms'>
         <p className='text-accent-50'>
           I&apos;m a Full Stack Software Developer living in Ottawa, Ontario.
