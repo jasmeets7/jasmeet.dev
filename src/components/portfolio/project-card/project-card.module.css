@@ -4,7 +4,7 @@
     gap-1
     bg-accent-900
     hover:bg-accent-800
-    hover:scale-105
+    md:hover:scale-105
     border
     border-accent-800
     rounded-md

@@ -10,6 +10,8 @@ export const FadeIn: React.FC<React.PropsWithChildren<FadeInProps>> = ({
 }) => {
   const [ref, isVisible] = useIntersectionObserver<HTMLDivElement>();
 
+  if (!delay) return children;
+
   if (!isValidElement(children)) {
     console.error('FadeIn expects a single React element as a child.');
     return null;
@@ -20,7 +22,7 @@ export const FadeIn: React.FC<React.PropsWithChildren<FadeInProps>> = ({
     style: {
       ...children.props.style,
       opacity: isVisible ? 1 : 0,
-      transform: isVisible ? 'translateY(0)' : 'translateY(10vh)',
+      transform: isVisible ? 'translateY(0)' : 'translateY(4vh)',
       transition: 'all 0.6s ease-out, transform 1s ease-out',
       transitionDelay: delay,
     },
