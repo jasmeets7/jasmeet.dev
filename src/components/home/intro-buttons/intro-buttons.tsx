@@ -7,34 +7,42 @@ import { User } from '@portfolio/icons/misc';
 
 export const IntroButtons: React.FC = () => {
   return (
-    <div className='flex flex-col gap-1 text-justify lg:flex-row lg:gap-4 w-[-webkit-fill-available]'>
+    <div className='flex gap-4'>
       <FadeIn
         key={3}
         delay={`300ms`}
       >
-        <div className='flex-1'>
-          <Link
-            href='/contact'
-            className='btn btn-primary gap-1'
-          >
-            <Mail />
+        <Link
+          href='/contact'
+          className='group relative w-44 cursor-pointer overflow-hidden rounded-md border-none bg-primary-600 p-2 text-center font-semibold'
+        >
+          <span className='inline-block translate-x-1 transition-all duration-300 group-hover:translate-x-12 group-hover:opacity-0'>
             Let&apos;s Connect
-          </Link>
-        </div>
+          </span>
+          <div className='absolute top-0 z-10 flex h-full w-full translate-x-12 items-center justify-center gap-2 text-primary-foreground opacity-0 transition-all duration-300 group-hover:-translate-x-1 group-hover:opacity-100'>
+            <span>Let&apos;s Connect</span>
+            <Mail />
+          </div>
+          <div className='absolute left-[10%] top-[40%] h-2 w-2 scale-[1] rounded-lg bg-primary-700 transition-all duration-300 group-hover:left-[0%] group-hover:top-[0%] group-hover:h-full group-hover:w-full group-hover:scale-[1.8] group-hover:bg-primary'></div>
+        </Link>
       </FadeIn>
       <FadeIn
         key={5}
         delay={`400ms`}
       >
-        <div className='flex-1'>
-          <Link
-            href='/about'
-            className='btn btn-secondary gap-1'
-          >
-            <User />
+        <Link
+          href='/about'
+          className='group relative w-44 cursor-pointer overflow-hidden rounded-md border-none bg-accent-600 p-2 text-center font-semibold hover:border-accent-700'
+        >
+          <span className='inline-block translate-x-1 transition-all duration-300 group-hover:translate-x-12 group-hover:opacity-0'>
             About Me
-          </Link>
-        </div>
+          </span>
+          <div className='absolute top-0 z-10 flex h-full w-full translate-x-12 items-center justify-center gap-2 text-primary-foreground opacity-0 transition-all duration-300 group-hover:-translate-x-1 group-hover:opacity-100'>
+            <span>About Me</span>
+            <User />
+          </div>
+          <div className='absolute left-[20%] top-[40%] h-2 w-2 scale-[1] rounded-lg bg-accent-700 transition-all duration-300 group-hover:left-[0%] group-hover:top-[0%] group-hover:h-full group-hover:w-full group-hover:scale-[1.8] group-hover:bg-accent-700'></div>
+        </Link>
       </FadeIn>
     </div>
   );

@@ -8,8 +8,8 @@ export const ContactMethods: React.FC<{ delay?: string }> = ({ delay }) => {
         <p className='text-accent-50'>Hire Me</p>
         <p className='text-sm text-green-300'>Schedule a meeting</p>
       </Methods.Link>
-      <Methods.Link href='mailto:hello@jasmeet.dev'>
-        <p className='text-accent-50'>hello@jasmeet.dev</p>
+      <Methods.Link href='mailto:contact@jasmeet.dev'>
+        <p className='text-accent-50'>contact@jasmeet.dev</p>
         <p className='text-sm text-accent-300'>Say Hello!</p>
       </Methods.Link>
       <Methods.Link href='https://www.linkedin.com/in/jasmeet-singh7'>

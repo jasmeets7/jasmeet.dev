@@ -1,23 +1,23 @@
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
-import './globals.css';
+import '../globals.css';
 import Navigation from '@portfolio/shared/navigation';
 import NavigationProvider from '@portfolio/context/navigation';
 
 const rany = localFont({
-  src: './fonts/Rany.woff2',
+  src: '../fonts/Rany.woff2',
   variable: '--font-rany',
   weight: '100 900',
 });
 
 const ranyMedium = localFont({
-  src: './fonts/Rany-Medium.woff2',
+  src: '../fonts/Rany-Medium.woff2',
   variable: '--font-rany-medium',
   weight: '100 900',
 });
 
 const ranyBold = localFont({
-  src: './fonts/Rany-Bold.woff2',
+  src: '../fonts/Rany-Bold.woff2',
   variable: '--font-rany-bold',
   weight: '100 900',
 });
