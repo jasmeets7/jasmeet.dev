@@ -7,7 +7,7 @@ import { projectsSchema } from '@portfolio/validations/project';
 export async function listProjects() {
   await Connect();
   try {
-    const projects = await Project.find({});
+    const projects = await Project.find({}).sort({ order: 1 });
     projectsSchema.parse(projects);
     return projects;
   } catch (error) {

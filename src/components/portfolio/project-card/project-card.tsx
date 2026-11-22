@@ -40,7 +40,7 @@ export const Project: React.FC<{ project: TProjectSchema; delay: string }> = ({
         <div className={style.badge_container}>
           {project.tags.map((tag) => (
             <span
-              key={`${Math.random()}`}
+              key={tag}
               className={style.badge}
             >
               {tag}

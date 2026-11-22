@@ -14,7 +14,7 @@ export const IntroButtons: React.FC = () => {
       >
         <Link
           href='/contact'
-          className='group relative w-44 cursor-pointer overflow-hidden rounded-md border-none bg-primary-600 p-2 text-center font-semibold'
+          className='group relative block w-44 cursor-pointer overflow-hidden rounded-md border-none bg-primary-600 p-2 text-center font-semibold'
         >
           <span className='inline-block translate-x-1 transition-all duration-300 group-hover:translate-x-12 group-hover:opacity-0'>
             Let&apos;s Connect
@@ -32,7 +32,7 @@ export const IntroButtons: React.FC = () => {
       >
         <Link
           href='/about'
-          className='group relative w-44 cursor-pointer overflow-hidden rounded-md border-none bg-accent-600 p-2 text-center font-semibold hover:border-accent-700'
+          className='group relative block w-44 cursor-pointer overflow-hidden rounded-md border-none bg-accent-600 p-2 text-center font-semibold hover:border-accent-700'
         >
           <span className='inline-block translate-x-1 transition-all duration-300 group-hover:translate-x-12 group-hover:opacity-0'>
             About Me

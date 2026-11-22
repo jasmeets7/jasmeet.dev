@@ -14,7 +14,7 @@ const ProjectSchema: Schema<Project> = new Schema({
   tags: { type: [String], required: true },
   order: { type: Number, required: true },
   url: { type: String, required: true },
-});
+}, { collection: 'Project' });
 
 const Project: Model<Project> =
   mongoose.models.Project || mongoose.model<Project>('Project', ProjectSchema);
